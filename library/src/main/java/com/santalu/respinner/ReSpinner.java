@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 
 /**
  * Created by santalu on 17/08/2017
- * A spinner does support item click events.
+ * A spinner that supports item click events.
  */
 
 public class ReSpinner extends AppCompatSpinner {
