@@ -1,5 +1,7 @@
 # ReSpinner
 
+[![](https://jitpack.io/v/santalu/respinner.svg)](https://jitpack.io/#santalu/respinner)
+
 Android's regular spinner can be really annoying sometimes. Unwanted calls during initialization, doesn't let user to select same item etc. </br>
 Respinner is a simple spinner which supports item click events. You can set item click listener.
 
