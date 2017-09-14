@@ -12,7 +12,7 @@ import android.util.AttributeSet;
 
 public class ReSpinner extends AppCompatSpinner {
 
-    private OnItemClickListener mOnItemClickListener;
+    private OnItemClickListener onItemClickListener;
 
     public ReSpinner(Context context) {
         super(context);
@@ -55,12 +55,12 @@ public class ReSpinner extends AppCompatSpinner {
     }
 
     private void performItemClickCustom() {
-        if (mOnItemClickListener != null) {
-            mOnItemClickListener.onItemClick(this, getSelectedView(), getSelectedItemPosition(), getSelectedItemId());
+        if (onItemClickListener != null) {
+            onItemClickListener.onItemClick(this, getSelectedView(), getSelectedItemPosition(), getSelectedItemId());
         }
     }
 
     public void setOnItemClickListener(OnItemClickListener l) {
-        mOnItemClickListener = l;
+        onItemClickListener = l;
     }
 }
