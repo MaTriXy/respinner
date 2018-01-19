@@ -34,7 +34,11 @@ public class ReSpinner extends AppCompatSpinner {
         super(context, attrs, defStyleAttr, mode);
     }
 
-    public ReSpinner(Context context, AttributeSet attrs, int defStyleAttr, int mode, Theme popupTheme) {
+    public ReSpinner(Context context,
+            AttributeSet attrs,
+            int defStyleAttr,
+            int mode,
+            Theme popupTheme) {
         super(context, attrs, defStyleAttr, mode, popupTheme);
     }
 
@@ -56,7 +60,8 @@ public class ReSpinner extends AppCompatSpinner {
 
     private void performItemClickCustom() {
         if (onItemClickListener != null) {
-            onItemClickListener.onItemClick(this, getSelectedView(), getSelectedItemPosition(), getSelectedItemId());
+            onItemClickListener.onItemClick(this, getSelectedView(), getSelectedItemPosition(),
+                    getSelectedItemId());
         }
     }
 
