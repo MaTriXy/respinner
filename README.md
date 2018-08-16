@@ -21,7 +21,7 @@ allprojects {
 ```
 ```
 dependencies {
-  implementation 'com.github.santalu:respinner:1.0.4'
+  implementation 'com.github.santalu:respinner:1.0.5'
 }
 ```
 
