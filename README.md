@@ -7,7 +7,7 @@ Respinner is a simple spinner which supports item click events. You can set item
 
 ## Samples
 
-<img src="https://github.com/santalu/respinner/blob/master/screens/sample.gif"/>
+<img src="https://github.com/santalu/respinner/blob/master/media/sample.gif"/>
 
 ## Usage
 
@@ -21,13 +21,13 @@ allprojects {
 ```
 ```
 dependencies {
-  compile 'com.github.santalu:respinner:1.0.3'
+  implementation 'com.github.santalu:respinner:1.0.4'
 }
 ```
 
 ### XML
 ```xml
-<com.santalu.respinner.ReSpinner
+<com.santalu.widget.ReSpinner
     android:id="@+id/spinner"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"/>
